@@ -1,0 +1,969 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Türk Masalları Dünyası</title>
+
+    <style>
+
+        body {
+            background-color: #f4effa;
+            font-family: Georgia, serif;
+            text-align: center;
+            margin: 15px;
+        }
+
+        h1 {
+            color: #533d6b;
+            background-color: #e2d5f0;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #674681;
+        }
+
+        p {
+            color: #392f48;
+            line-height: 1.6;
+        }
+
+        .menu {
+            max-width: 750px;
+            margin: 25px auto;
+            line-height: 2.5;
+        }
+
+        .menu a {
+            background-color: white;
+            color: #533d6b;
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #d0bddf;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            line-height: 1.5;
+        }
+
+        .masal {
+            background-color: #fffdfd;
+            margin: 25px auto;
+            padding: 20px;
+            max-width: 650px;
+            text-align: left;
+            border: 1px solid #d0bddf;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #674681;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .metin {
+            display: none;
+        }
+
+        .kaynak {
+            font-size: 13px;
+            color: #685a74;
+        }
+
+        .kaynakca a {
+            color: #533d6b;
+        }
+
+        .kaynakca li {
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+
+            h1 {
+                padding: 20px;
+            }
+
+            .masal {
+                padding: 15px;
+            }
+
+            .menu a {
+                margin: 3px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- SİTEMİZİN BAŞLIĞI -->
+
+    <h1>Türk Masalları Dünyası</h1>
+
+    <p>Bir varmış, bir yokmuş...</p>
+
+    <p>Türk masalları sitemize hoş geldiniz!</p>
+
+    <h2>Masallarımız</h2>
+
+
+    <!-- MASAL MENÜSÜ -->
+
+    <div class="menu">
+
+        <a href="#masal1">Keloğlan</a>
+
+        <a href="#masal2">Zümrüdüanka Kuşu</a>
+
+        <a href="#masal3">Üç Turunçlar</a>
+
+        <a href="#masal4">Açıl Sofram Açıl</a>
+
+        <a href="#masal5">Altın Bülbül</a>
+
+        <a href="#masal6">Tuz Kadar Sevgi</a>
+
+        <a href="#masal7">Nardaniye Hanım</a>
+
+        <a href="#masal8">Korkak Adam ve Devler</a>
+
+        <a href="#masal9">Ali Cengiz Oyunu</a>
+
+        <a href="#masal10">Dört Öğüt</a>
+
+        <a href="#hakkinda">Hakkında</a>
+
+        <a href="#kaynakca">Kaynakça</a>
+
+    </div>
+
+
+    <!-- 1. MASAL: KELOĞLAN -->
+
+    <div class="masal" id="masal1">
+
+        <h2>1. Keloğlan</h2>
+
+        <button onclick="masalGoster('metin1')">
+            Masalı Göster / Gizle
+        </button>
+
+        <div class="metin" id="metin1">
+
+            <p>
+                Bir varmış, bir yokmuş.
+                Keloğlan adında bir delikanlı
+                annesiyle birlikte yaşarmış.
+                Bir gün yerde bir nohut bulmuş.
+                Bu küçücük nohuttan zengin
+                olmanın hayalini kurmuş.
+            </p>
+
+            <p>
+                Keloğlan bir yolculuğa çıkmış.
+                Karşılaştığı zengin bir adama
+                kendisini büyük bir tüccar
+                olarak tanıtmış.
+                Adam ona güzel kıyafetler
+                ve bir at vermiş.
+            </p>
+
+            <p>
+                Keloğlan Halep'e giderek
+                valinin kızıyla evlenmiş.
+                Bir süre sonra parası bitmiş.
+                Evinin bahçesindeki dut ağacını
+                keserken içinden altınlar
+                çıktığını görmüş.
+            </p>
+
+            <p>
+                Bu parayla ticarete başlamış.
+                Böylece yeniden zengin olmuş
+                ve mutlu bir yaşam sürmüş.
+            </p>
+
+        </div>
+
+        <p class="kaynak">
+            Kaynak: Keloğlan Masalı,
+            Salih San derlemesi.
+            Kısa uyarlama.
+        </p>
+
+    </div>
+
+
+    <!-- 2. MASAL: ZÜMRÜDÜANKA KUŞU -->
+
+    <div class="masal" id="masal2">
+
+        <h2>2. Zümrüdüanka Kuşu</h2>
+
+        <button onclick="masalGoster('metin2')">
+            Masalı Göster / Gizle
+        </button>
+
+        <div class="metin" id="metin2">
+
+            <p>
+                Bir zamanlar üç oğlu olan
+                bir padişah varmış.
+                Sarayının bahçesindeki
+                değerli elmaları her yıl
+                bir dev çalarmış.
+            </p>
+
+            <p>
+                Padişahın en küçük oğlu
+                devi takip ederek derin
+                bir kuyuya inmiş.
+                Devin kötülüklerine
+                son vermiş fakat
+                ağabeyleri onu kuyuda bırakmış.
+            </p>
+
+            <p>
+                Delikanlı yer altında
+                Zümrüdüanka Kuşu'nun
+                yavrularını bir yılandan
+                kurtarmış.
+            </p>
+
+            <p>
+                Zümrüdüanka Kuşu
+                delikanlının yaptığı iyiliği
+                karşılıksız bırakmamış.
+                Onu sırtına alarak
+                yeryüzüne çıkarmış.
+            </p>
+
+            <p>
+                Delikanlı uzun yolculuğun
+                sonunda ailesine kavuşmuş.
+                Başından geçenleri anlatmış
+                ve mutlu bir hayat sürmüş.
+            </p>
+
+        </div>
+
+        <p class="kaynak">
+            Kaynak: Dipsiz Kuyu Masalı,
+            Kültür Portalı.
+            Zümrüdüanka motifinden
+            kısa uyarlama.
+        </p>
+
+    </div>
+
+
+    <!-- 3. MASAL: ÜÇ TURUNÇLAR -->
+
+    <div class="masal" id="masal3">
+
+        <h2>3. Üç Turunçlar</h2>
+
+        <button onclick="masalGoster('metin3')">
+            Masalı Göster / Gizle
+        </button>
+
+        <div class="metin" id="metin3">
+
+            <p>
+                Bir padişahın oğlu varmış.
+                Bir gün yaşlı bir kadının
+                testisini kırmış.
+                Kadın da onun üç turunçların
+                aşkına düşmesini dilemiş.
+            </p>
+
+            <p>
+                Şehzade üç turuncu bulmak
+                için uzun bir yolculuğa çıkmış.
+                Dağları aşmış, ormanlardan
+                geçmiş ve sonunda
+                üç turuncu bulmuş.
+            </p>
+
+            <p>
+                İlk iki turuncu susuz
+                yerde açmış.
+                İçlerinden çıkan kızları
+                kurtaramamış.
+                Üçüncü turuncu ise
+                su kenarında açmış.
+                İçinden güzel bir peri
+                kızı çıkmış.
+            </p>
+
+            <p>
+                Peri kızı kötü bir büyüyle
+                güvercine dönüşmüş.
+                Şehzade uzun uğraşlardan
+                sonra gerçeği öğrenmiş.
+                Büyü bozulmuş ve
+                sevgililer yeniden kavuşmuş.
+            </p>
+
+        </div>
+
+        <p class="kaynak">
+            Kaynak: Üç Turunçlar,
+            Kültür ve Turizm Bakanlığı
+            Masallar Arşivi.
+            Kısa uyarlama.
+        </p>
+
+    </div>
+
+
+    <!-- 4. MASAL: AÇIL SOFRAM AÇIL -->
+
+    <div class="masal" id="masal4">
+
+        <h2>4. Açıl Sofram Açıl</h2>
+
+        <button onclick="masalGoster('metin4')">
+            Masalı Göster / Gizle
+        </button>
+
+        <div class="metin" id="metin4">
+
+            <p>
+                Keloğlan annesiyle birlikte
+                yoksul bir hayat sürermiş.
+                Bir gün değirmene götürdüğü
+                darıları aç kuşlara vermiş.
+            </p>
+
+            <p>
+                Daha sonra bir devle
+                karşılaşmış.
+                Dev, Keloğlan'ın cesaretini
+                görünce ona sihirli
+                bir sofra vermiş.
+            </p>
+
+            <p>
+                Keloğlan sofraya
+                "Açıl sofram açıl!"
+                dediğinde sofrada birbirinden
+                güzel yemekler beliriyormuş.
+                Keloğlan ve annesi
+                artık aç kalmıyormuş.
+            </p>
+
+            <p>
+                Bir gün sihirli sofra
+                hırsızlar tarafından çalınmış.
+                Keloğlan devden tekrar
+                yardım istemiş.
+            </p>
+
+            <p>
+                Devin verdiği sihirli
+                eşyalar sayesinde
+                sofrasını geri almış.
+                Annesiyle birlikte
+                mutlu yaşamış.
+            </p>
+
+        </div>
+
+        <p class="kaynak">
+            Kaynak: Açıl Sofram Açıl,
+            masaloku.net.
+            Kısa uyarlama.
+        </p>
+
+    </div>
+
+
+    <!-- 5. MASAL: ALTIN BÜLBÜL -->
+
+    <div class="masal" id="masal5">
+
+        <h2>5. Keloğlan ve Altın Bülbül</h2>
+
+        <button onclick="masalGoster('metin5')">
+            Masalı Göster / Gizle
+        </button>
+
+        <div class="metin" id="metin5">
+
+            <p>
+                Bir padişah camdan
+                güzel bir cami yaptırmış.
+                Yaşlı bir adam ona
+                Kafdağı'nın arkasındaki
+                Altın Bülbül'ü getirmesini
+                söylemiş.
+            </p>
+
+            <p>
+                Padişahın üç oğlu kuşu
+                bulmak için yola çıkmış.
+                En küçük oğul büyük
+                zorluklardan geçerek
+                devlerin sarayına ulaşmış
+                ve Altın Bülbül'ü bulmuş.
+            </p>
+
+            <p>
+                Ağabeyleri onu kıskanarak
+                suya atmış.
+                Küçük oğlan kurtulmuş.
+                Başına koyun işkembesi
+                geçirerek Keloğlan
+                görünümüne girmiş.
+            </p>
+
+            <p>
+                Altın Bülbül sadece
+                gerçek kahraman yanına
+                geldiğinde ötmüş.
+                Padişah gerçeği öğrenmiş
+                ve küçük oğluna kavuşmuş.
+            </p>
+
+        </div>
+
+        <p class="kaynak">
+            Kaynak: Keloğlan ve Altın Bülbül,
+            Osman Saygı derlemesi.
+            Kısa uyarlama.
+        </p>
+
+    </div>
+
+
+    <!-- 6. MASAL: TUZ KADAR SEVGİ -->
+
+    <div class="masal" id="masal6">
+
+        <h2>6. Tuz Kadar Sevgi</h2>
+
+        <button onclick="masalGoster('metin6')">
+            Masalı Göster / Gizle
+        </button>
+
+        <div class="metin" id="metin6">
+
+            <p>
+                Bir padişah üç oğlunu
+                yanına çağırmış.
+                Onlara kendisini ne kadar
+                sevdiklerini sormuş.
+            </p>
+
+            <p>
+                Büyük oğulları sevgilerini
+                değerli taşlara ve tatlılara
+                benzetmiş.
+                En küçük oğlu ise
+                "Seni tuz kadar seviyorum"
+                demiş.
+            </p>
+
+            <p>
+                Padişah bu cevaba kızmış
+                ve oğlunu saraydan
+                uzaklaştırmış.
+                Aradan uzun yıllar geçmiş.
+                Küçük oğlan başarılı
+                bir yönetici olmuş.
+            </p>
+
+            <p>
+                Bir gün babasını yemeğe
+                davet etmiş.
+                Fakat yemeklere hiç
+                tuz koydurmamış.
+                Padişah yemeklerin
+                tadını beğenmemiş.
+            </p>
+
+            <p>
+                Oğlu tuzun yemekler için
+                ne kadar önemli olduğunu
+                anlatmış.
+                Padişah oğlunun sevgisini
+                sonunda anlamış.
+                İkisi de barışmış.
+            </p>
+
+        </div>
+
+        <p class="kaynak">
+            Kaynak: Tuz Kadar Sevgi,
+            Kültür ve Turizm Bakanlığı
+            Masallar Arşivi.
+            Kısa uyarlama.
+        </p>
+
+    </div>
+
+
+    <!-- 7. MASAL: NARDANİYE HANIM -->
+
+    <div class="masal" id="masal7">
+
+        <h2>7. Nardaniye Hanım</h2>
+
+        <button onclick="masalGoster('metin7')">
+            Masalı Göster / Gizle
+        </button>
+
+        <div class="metin" id="metin7">
+
+            <p>
+                Bir zamanlar Nardaniye
+                adında güzel bir kız varmış.
+                Annesi öldükten sonra
+                babası yeniden evlenmiş.
+                Üvey annesi Nardaniye'yi
+                kıskanmaya başlamış.
+            </p>
+
+            <p>
+                Üvey anne Nardaniye'nin
+                evden uzaklaştırılması için
+                çeşitli oyunlar hazırlamış.
+                Nardaniye bu yüzden
+                çok zor günler geçirmiş.
+            </p>
+
+            <p>
+                Kötü kalpli üvey anne
+                bir cadıdan yardım almış.
+                Cadının verdiği zehirli
+                sakız yüzünden Nardaniye
+                derin bir uykuya dalmış.
+            </p>
+
+            <p>
+                Bir şehzade Nardaniye'yi
+                bulmuş.
+                Sakız çıkarılınca
+                genç kız uyanmış.
+                Gerçekler ortaya çıkmış.
+                Nardaniye sonunda
+                huzurlu bir hayata kavuşmuş.
+            </p>
+
+        </div>
+
+        <p class="kaynak">
+            Kaynak: Nardaniye Hanım,
+            Kültür ve Turizm Bakanlığı
+            Masallar Arşivi.
+            Kısa uyarlama.
+        </p>
+
+    </div>
+
+
+    <!-- 8. MASAL: KORKAK ADAM VE DEVLER -->
+
+    <div class="masal" id="masal8">
+
+        <h2>8. Korkak Adam ve Devler</h2>
+
+        <button onclick="masalGoster('metin8')">
+            Masalı Göster / Gizle
+        </button>
+
+        <div class="metin" id="metin8">
+
+            <p>
+                Bir zamanlar çok korkak
+                bir adam yaşarmış.
+                Bir gün yolu devlerin
+                yaşadığı büyük bir
+                saraya düşmüş.
+            </p>
+
+            <p>
+                Devler ona kim olduğunu
+                sormuşlar.
+                Adam kendisinin onların
+                dedesi olduğunu söylemiş.
+                Devler önce inanmışlar.
+                Sonra adamdan kurtulmaya
+                çalışmışlar.
+            </p>
+
+            <p>
+                Adam devlerin düzenlediği
+                yarışlara katılmış.
+                Çizmelerine toz doldurarak
+                çok güçlüymüş gibi görünmüş.
+            </p>
+
+            <p>
+                Başka bir yarışta
+                peynir sıkarak taşı
+                eziyormuş gibi yapmış.
+                Devler onun gücünden
+                korkarak iki çuval
+                altın vermişler.
+            </p>
+
+            <p>
+                Adam zekâsı sayesinde
+                devlerden kurtulmuş
+                ve altınlarıyla evine dönmüş.
+            </p>
+
+        </div>
+
+        <p class="kaynak">
+            Kaynak: Korkak Adam ve Devler,
+            Kültür Portalı.
+            Kısa uyarlama.
+        </p>
+
+    </div>
+
+
+    <!-- 9. MASAL: ALİ CENGİZ OYUNU -->
+
+    <div class="masal" id="masal9">
+
+        <h2>9. Keloğlan ve Ali Cengiz Oyunu</h2>
+
+        <button onclick="masalGoster('metin9')">
+            Masalı Göster / Gizle
+        </button>
+
+        <div class="metin" id="metin9">
+
+            <p>
+                Bir zamanlar Keloğlan
+                padişahın kızıyla
+                evlenmek istemiş.
+                Padişah ona Ali Cengiz
+                oyununu öğrenmesini
+                şart koşmuş.
+            </p>
+
+            <p>
+                Keloğlan oyunu öğrenmek
+                için bir ustanın
+                yanına gitmiş.
+                Ustası ona sihirli
+                dönüşümleri öğretmiş.
+            </p>
+
+            <p>
+                Keloğlan öğrendiklerini
+                gizlemiş.
+                Sonunda ustasıyla
+                bir mücadeleye girişmiş.
+                İkisi de farklı hayvanlara
+                ve nesnelere dönüşerek
+                yarışmışlar.
+            </p>
+
+            <p>
+                Keloğlan zekâsıyla
+                ustasını yenmiş.
+                Padişahın karşısında
+                başarısını göstermiş
+                ve verdiği sözü
+                yerine getirmiş.
+            </p>
+
+        </div>
+
+        <p class="kaynak">
+            Kaynak: Ali Cengiz Oyunu,
+            Türk halk masalı.
+            Keloğlan anlatısından
+            kısa uyarlama.
+        </p>
+
+    </div>
+
+
+    <!-- 10. MASAL: DÖRT ÖĞÜT -->
+
+    <div class="masal" id="masal10">
+
+        <h2>10. Dört Öğüt</h2>
+
+        <button onclick="masalGoster('metin10')">
+            Masalı Göster / Gizle
+        </button>
+
+        <div class="metin" id="metin10">
+
+            <p>
+                Bir zamanlar yoksul
+                bir adam varmış.
+                Ailesini geçindirmek
+                için uzak bir memlekete
+                çalışmaya gitmiş.
+            </p>
+
+            <p>
+                Yirmi yıl boyunca
+                bir ağanın yanında çalışmış.
+                Memleketine dönmek
+                istediğinde ağa ona
+                üç lira vermiş.
+            </p>
+
+            <p>
+                Adam bu parayla
+                ağasından üç öğüt
+                satın almış.
+                Ağa ona dördüncü
+                öğüdü de ücretsiz vermiş.
+                Adam bütün öğütleri
+                dikkatlice dinlemiş.
+            </p>
+
+            <p>
+                Adam dönüş yolunda
+                aldığı öğütleri
+                dinleyerek birçok
+                tehlikeden kurtulmuş.
+                Sonunda evine ulaşmış.
+            </p>
+
+            <p>
+                Evinde tanımadığı
+                genç bir adam görünce
+                yanlış bir karar verecekmiş.
+                Fakat öğrendiği öğüdü
+                hatırlayıp önce
+                gerçeği sormuş.
+            </p>
+
+            <p>
+                Genç adamın kendi
+                oğlu olduğunu öğrenmiş.
+                Böylece öğütlerin
+                değerini anlamış.
+                Ailesine kavuşmanın
+                mutluluğunu yaşamış.
+            </p>
+
+        </div>
+
+        <p class="kaynak">
+            Kaynak: Dört Öğüt,
+            Kültür Portalı.
+            Kısa uyarlama.
+        </p>
+
+    </div>
+
+
+    <!-- HAKKINDA BÖLÜMÜ -->
+
+    <div class="masal" id="hakkinda">
+
+        <h2>Hakkında</h2>
+
+        <p>
+            Bu web sitesi, Türk halk
+            masallarını bir araya getirmek
+            ve okuyuculara tanıtmak
+            amacıyla hazırlanmıştır.
+        </p>
+
+        <p>
+            Web sitesinde 10 farklı
+            Türk masalı bulunmaktadır.
+            Masallar kısa uyarlamalar
+            şeklinde sunulmuştur.
+        </p>
+
+        <p>
+            Kullanıcılar istedikleri
+            masalı menüden seçebilir
+            ve butonlara basarak
+            masalları okuyabilir.
+        </p>
+
+        <p>
+            Bu web sitesi Programlamaya
+            Giriş dersi vize projesi
+            için hazırlanmıştır.
+        </p>
+
+        <p>
+            Web sitesinin yapımında
+            HTML, CSS ve JavaScript
+            kullanılmıştır.
+        </p>
+
+    </div>
+
+
+    <!-- KAYNAKÇA BÖLÜMÜ -->
+
+    <div class="masal kaynakca" id="kaynakca">
+
+        <h2>Kaynakça</h2>
+
+        <p>
+            Bu web sitesindeki masallar
+            aşağıdaki kaynaklardan
+            yararlanılarak kısa şekilde
+            yeniden anlatılmıştır.
+        </p>
+
+        <ol>
+
+            <li>
+                Keloğlan Masalı -
+                Kültür Portalı,
+                derleyen Salih San.
+                <a href="https://www.kulturportali.gov.tr/portal/keloglanmasali">
+                    Kaynağı Gör
+                </a>
+            </li>
+
+            <li>
+                Zümrüdüanka Kuşu -
+                Dipsiz Kuyu Masalı,
+                Kültür Portalı.
+                <a href="https://www.kulturportali.gov.tr/turkiye/afyonkarahisar/kulturatlasi/dipsiz-kuyu-masali">
+                    Kaynağı Gör
+                </a>
+            </li>
+
+            <li>
+                Üç Turunçlar -
+                Kültür ve Turizm Bakanlığı,
+                Masallar Arşivi.
+                <a href="https://ekitap.ktb.gov.tr/TR-78473/masallar.html">
+                    Kaynağı Gör
+                </a>
+            </li>
+
+            <li>
+                Açıl Sofram Açıl -
+                Masal Oku.
+                <a href="https://www.masaloku.net/acil-sofram-acil-masali/">
+                    Kaynağı Gör
+                </a>
+            </li>
+
+            <li>
+                Keloğlan ve Altın Bülbül -
+                Kültür Portalı,
+                derleyen Osman Saygı.
+                <a href="https://kulturportali.gov.tr/portal/keloglanvealtinbulbulmasali">
+                    Kaynağı Gör
+                </a>
+            </li>
+
+            <li>
+                Tuz Kadar Sevgi -
+                Kültür ve Turizm Bakanlığı,
+                Masallar Arşivi.
+                <a href="https://ekitap.ktb.gov.tr/TR-78473/masallar.html">
+                    Kaynağı Gör
+                </a>
+            </li>
+
+            <li>
+                Nardaniye Hanım -
+                Kültür ve Turizm Bakanlığı,
+                Masallar Arşivi.
+                <a href="https://ekitap.ktb.gov.tr/TR-78473/masallar.html">
+                    Kaynağı Gör
+                </a>
+            </li>
+
+            <li>
+                Korkak Adam ve Devler -
+                Kültür Portalı.
+                <a href="https://www.kulturportali.gov.tr/portal/korkakadamvedevler">
+                    Kaynağı Gör
+                </a>
+            </li>
+
+            <li>
+                Ali Cengiz Oyunu -
+                Kültür ve Turizm Bakanlığı,
+                Masallar Arşivi.
+                <a href="https://ekitap.ktb.gov.tr/TR-78473/masallar.html">
+                    Kaynağı Gör
+                </a>
+            </li>
+
+            <li>
+                Dört Öğüt -
+                Kültür Portalı.
+                <a href="https://www.kulturportali.gov.tr/portal/dortogut-1">
+                    Kaynağı Gör
+                </a>
+            </li>
+
+        </ol>
+
+        <p>
+            Not: Masal metinleri
+            kaynaklardan yararlanılarak
+            kısaltılmış ve yeniden
+            düzenlenmiştir.
+        </p>
+
+    </div>
+
+
+    <!-- SAYFANIN EN ALTI -->
+
+    <p>Türk Masalları Dünyası</p>
+
+    <p>
+        Programlamaya Giriş
+        Vize Projesi
+    </p>
+
+
+    <!-- JAVASCRIPT KODUMUZ -->
+
+    <script>
+
+        function masalGoster(masalId) {
+
+            var metin = document.getElementById(masalId);
+
+            if (metin.style.display == "block") {
+
+                metin.style.display = "none";
+
+            } else {
+
+                metin.style.display = "block";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
